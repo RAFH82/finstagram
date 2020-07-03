@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: #8da7b8;
+  color: #244751;
   text-decoration: none;
 }
 
@@ -21,8 +21,12 @@ label {
 input[type=text], input[type=password], input[type=email] {
   border: solid 1px #244751;
   padding: .5em;
-  width: 200px;
+  width: 100%;
   font-size: 1em;
+}
+
+input {
+  outline-color: #244751;
 }
 
 header {
@@ -51,13 +55,6 @@ main {
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
-}
-
-.button {
-  padding: .5em;
-  background-color: white;
-  border: solid 1px #244751;
-  display: inline-block;
 }
 
 .finstagram-post > * {

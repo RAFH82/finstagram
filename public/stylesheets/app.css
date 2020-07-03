@@ -1,0 +1,125 @@
+header {
+    background-color: #244751;
+    color: white;
+}
+
+#main-logo {
+    color: whitesmoke;
+}
+
+#login {
+    font-size: 1em;
+    color: white;
+    padding-right: 10px;
+}
+
+.login-info {
+    font-size: 1em;
+    color: white;
+    padding-right: 10px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.finstagram-post {
+    margin-bottom: 48px;
+}
+
+.finstagram-post .user-info img {
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+.photo img {
+    border-radius: 2%;
+    background-color: black;
+    box-shadow: 3px 3px 5px 0px;
+}
+
+ a.photo{
+    transition: padding 0.5s;
+}
+
+a.photo:hover {
+    padding: 5px;
+}
+
+.banner h1 {
+    position: relative;
+    left: 20px;
+}
+
+a.banner:hover {
+    font-size: 1.2em;
+    text-shadow: 3px 3px 5px black;
+    margin: 0px;
+}
+
+a.banner  {
+    transition:all 0.5s ease;
+    transition-property: font-size, text-shadow;
+}
+
+form {
+    font-family: 'Manrope', sans-serif;
+    color: #244751;
+    font-size: 1.2e;
+    font-weight: bold;
+    display: block;
+    
+}
+
+.button {
+    padding: .5em;
+    background-color: white;
+    border: solid 1px #244751;
+    display: inline-block;
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+    outline-color: #244751;
+}
+
+.button:hover {
+    color:white;
+    background-color:#244751;
+}
+
+.button  {
+    transition:all 0.5s ease;
+    transition-property: color, background-color;
+}
+
+#likes {
+    padding: .5em;
+    background-color: white;
+    border: solid 1px #244751;
+    display: inline-block;
+    margin: 10px auto;
+    text-align: center;
+    outline-color: #244751;
+}
+
+#likes:hover {
+    color:white;
+    background-color:#244751;
+}
+
+#likes  {
+    transition:all 0.5s ease;
+    transition-property: color, background-color;
+}
+
+input .form-group {
+    width: 75%;
+}
+

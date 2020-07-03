@@ -14,7 +14,9 @@ class FinstagramPost < ActiveRecord::Base
         "#{(time_ago_in_minutes / 60).to_i} hours ago"
     elsif time_ago_in_minutes > 1440
         "#{(time_ago_in_days).to_i} days ago"
-    else
+    elsif time_ago_in_minutes == 1
+        "#{time_ago_in_minutes.to_i} minute ago"
+    else time_ago_in_minutes
         "#{time_ago_in_minutes.to_i} minutes ago"
     end
 end
